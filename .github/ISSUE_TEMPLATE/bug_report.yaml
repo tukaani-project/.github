@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for notifying us about this bug! If the bug is a security vulnerabilty, please report it to jiat0218@gmail.com instead.
+        Thanks for notifying us about this bug! If the bug is a security vulnerabilty, please report it to xz@tukaani.org instead.
   - type: textarea
     id: description
     attributes:
