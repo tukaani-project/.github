@@ -6,7 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for notifying us about this bug! If the bug is a security vulnerabilty, please report it to xz@tukaani.org instead.
+        Thanks for notifying us about this bug! If the bug is a security
+        vulnerabilty, please report it to xz@tukaani.org or create a private
+        Security Advisory instead.
   - type: textarea
     id: description
     attributes:
@@ -15,14 +17,14 @@ body:
       placeholder: What happened
     validations:
       required: true
-  - type: input    
+  - type: input
     id: our_version
     attributes:
       label: Version
       description: What version of our software are you running?
     validations:
       required: true
-  - type: input    
+  - type: input
     id: os_version
     attributes:
       label: Operating System
@@ -33,5 +35,7 @@ body:
     id: logs
     attributes:
       label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      description: |
+          Please copy and paste any relevant log output. This will be
+          automatically formatted into code, so no need for backticks.
       render: shell

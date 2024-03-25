@@ -19,14 +19,18 @@ body:
     id: complications
     attributes:
       label: Expected Complications
-      description: Do you expect any complications to this feature? Backwards compatibility or API/ABI breakage?
+      description: |
+          Do you expect any complications to this feature?
+          Backwards compatibility or API/ABI breakage?
     validations:
       required: false
   - type: dropdown
     id: logs
     attributes:
       label: Will I try to implement this new feature?
-      description: Let us know if you are planning on implementing this yourself or if you would like us to.
+      description: |
+          Let us know if you are planning on implementing this yourself
+          or if you would like us to.
       options:
         - "Yes"
         - "No"
